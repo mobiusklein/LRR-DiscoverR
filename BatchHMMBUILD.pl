@@ -23,4 +23,7 @@ if (defined($dir_handle)){
 			system("hmmbuild -n $_ ".$dir."/HMMs/".$hmm_name.".hmm ".$dir."/".$_);
 		}
 	}
+
+    system("cat ".$dir."/HMMs/*.hmm > ".$dir."/HMMs/HMMDB.hmmdb");
+    system("hmmpress ".$dir."/HMMs/HMMDB.hmmdb");
 }
