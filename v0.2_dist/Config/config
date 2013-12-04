@@ -1,0 +1,13 @@
+# LRR Discoverr Config File 
+# Comment Character= '#'
+# Section Header Character= '='
+# IMPORTANT: Do not use spaces around the '=>' symbol
+# ------------------------------------
+# Must include sections titled: hmmdb_path, 
+# May include optional:
+#
+# Paths To HMMDBs
+# NAME=>PATH
+=hmmdb_path
+TOLL_LIKE=>Toll_Model_Data/Toll-like_HMMDB
+FSHR=>FSHR_Model_Data/FSHR_HMMDB
